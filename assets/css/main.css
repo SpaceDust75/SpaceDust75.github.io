@@ -3281,6 +3281,7 @@ input, select, textarea {
 			#header.alt.style6 .logo strong {
 				color: #87c5a4;
 			}
+			
 
 		body.is-preload #header.alt {
 			opacity: 0;
@@ -3380,7 +3381,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/AstroneerBanner1.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
