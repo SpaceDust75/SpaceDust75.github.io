@@ -11,6 +11,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- AOS 라이브러리 불러오기-->
+		<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
 	</head>
 	<body class="is-preload">
 
@@ -55,25 +58,38 @@
 
 				<!-- Main -->
 					<div id="main">
-
+						<section id="one">
+							<div class="inner">
+								<header class="major">
+									<h1>2023년 프로젝트 진행 목록</h1>
+									<h3>전공 과목 프로젝트 & 개발 팀 프로젝트 작업</h3>
+								</header>
+							</div>
+						</section>
 						
 						<!-- Two -->
 							<section id="two" class="spotlights">
-								<section>
+								<section data-aos="fade-left">
 									<a href="generic.html" class="image">
-										<img src="images/pic08.jpg" alt="" data-position="center center" />
+										<img src="images/UnrealScreen.png" alt="" data-position="center center" />
 									</a>
 									<div class="content">
-										<div class="inner">
+										<div class="inner" s>
 											<header class="major">
 												<h3>Unreal Engine 5를 이용한 게임 개발</h3>
 											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<p>
+												개발 인원 5명으로 이루어진 Unreal Engine 5를 이용한 게임 개발 팀 '녹은리얼'의 프로젝트 입니다.<br>
+												모든 인원이 기획, 개발 등 전반적인 작업에 참여하는 프로젝트입니다.<br>
+												현재 기획은 마무리 단계이고 다가오는 5월부터 개발을 진행합니다.<br>
+												3D 로그라이크 TPS 장르의 게임을 준비하고 있으며 단기간 목표는 포트폴리오용 게임 개발이며<br>
+												장기 목표는 개발한 게임을 좀 더 개선하여 출시하는 것이 목표인 프로젝트입니다.
+											</p>
 											
 										</div>
 									</div>
 								</section>
-								<section>
+								<section data-aos="fade-right">
 									<a href="generic.html" class="image">
 										<img src="images/EXOBONESModel.png" alt="" data-position="top center" />
 									</a>
@@ -82,12 +98,17 @@
 											<header class="major">
 												<h3>Arduino를 이용한 외골격 제품 개발</h3>
 											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-											
+											<p>
+												6명의 팀원(기획, 문서 관리, 개발, 디자인 부서)으로 이루어진 제품 개발 팀입니다.<br>
+												일상에서 편하게 사용할 수 있는 외골격 로봇을 만드는 것이 목표인 프로젝트로써<br>
+												강화학습을 이용하여 사용자의 움직임 정보를 받아 사용자가 특정 움직임을 취할 때<br>
+												근력 운동(움직임)에 도움을 주는 제품을 기획하고 개발 중입니다.<br>
+												올해 목표는 사업자 등록이며 더 나아가 하나의 브랜드를 만들어 내는 것이 팀의 목표입니다.
+											</p>
 										</div>
 									</div>
 								</section>
-								<section>
+								<section data-aos="fade-left">
 									<a href="generic.html" class="image">
 										<img src="images/UnityGame.png" alt="" data-position="25% 25%" />
 									</a>
@@ -96,12 +117,16 @@
 											<header class="major">
 												<h3>Unity를 이용한 게임 개발</h3>
 											</header>
-											<p>평소 게임 개발에 관심이 있던 대학생들이 모여 만들어진 Unity를 이용한 게임 개발 팀.</p>
+											<p>
+												평소 게임 개발에 관심이 있던 대학생들이 모여 만들어진 Unity를 이용한 게임 개발 팀입니다.<br>
+												서로 각기 다른 분야의 전공 학생들이 모여 Metroidvania 장르의 게임을 기획 중입니다.<br>
+												팀원 모두가 기획에 참여하고 최종 목표는 게임 플랫폼에 게임 등록입니다.
+											</p>
 											
 										</div>
 									</div>
 								</section>
-								<section>
+								<section data-aos="fade-right">
 									<a href="generic.html" class="image">
 										<img src="images/AndroidAppDev.png" alt="" data-position="25% 25%" />
 									</a>
@@ -110,21 +135,31 @@
 											<header class="major">
 												<h3>Android Studio & Kotlin를 이용한 앱 개발</h3>
 											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<p>
+												S/W융합 캡스톤 디자인 과목에서 진행하는 프로젝트로<br>
+												1인 개발 프로젝트로 Android Studio / Kotlin을 이용한 '대학생 졸업 이수 학점 관리 앱' 개발을 준비 중입니다.<br>
+												여러 대학교의 졸업 이수 학점의 기준을 사용자가 정리할 수 있게 해주어 따로 자신의 학점 관리 계획을 위해<br>
+												추가적인 외부 도움을 받지 않고 계획을 짤 수 있도록 도와주는 서비스를 기획하였으며 현재 기획 마무리 단계입니다.<br>
+											</p>
 											
 										</div>
 									</div>
 								</section>
-								<section>
+								<section data-aos="fade-left">
 									<a href="generic.html" class="image">
-										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+										<img src="images/Opensourcepj.png" alt="" data-position="25% 25%" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
 												<h3>웹 서비스 개발</h3>
 											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<p>
+												현재 '오픈소스개발방법론' 수업에서 팀 프로젝트를 준비중입니다.<br>
+												내용은 '정신 질환을 앓는 현대인의 정신의학 관련 기관 안내 및 매칭 서비스' 입니다.<br>
+												3명의 팀원으로 이루어진 팀으로 팀원 전체가 개발을 담당합니다.<br>
+												현재 기획된 내용으로는 웹 서비스를 개발할 예정입니다.
+											</p>
 											
 										</div>
 									</div>
@@ -158,6 +193,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script>
+				AOS.init();
+			</script>
 	</body>
 </html>
